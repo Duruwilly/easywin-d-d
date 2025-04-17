@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_left_alt" />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- glide cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+</head>
+
+<body>
+    <main class="" style="padding-bottom: 20px;">
+        <div class="container">
+            <header class="header">
+                <nav>
+                    <div class="back">
+                        <span class="material-symbols-outlined">
+                            arrow_left_alt
+                        </span>
+                        <a class="logo" href="https://easywin.ng/">
+                            <img src="/assets/images/Logo.png" alt="easy win logo">
+                        </a>
+                    </div>
+                    <div class="share-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.2499 5.50003C14.2499 5.07321 14.3339 4.65057 14.4973 4.25623C14.6606 3.86189 14.9 3.50358 15.2017 3.20176C15.5035 2.89994 15.8618 2.66052 16.2562 2.49717C16.6505 2.33383 17.0731 2.24976 17.4999 2.24976C17.9268 2.24976 18.3494 2.33383 18.7437 2.49717C19.1381 2.66052 19.4963 2.89994 19.7981 3.20176C20.0999 3.50358 20.3393 3.86189 20.5026 4.25623C20.6659 4.65057 20.75 5.07321 20.7499 5.50003C20.7499 6.36194 20.4074 7.18852 19.7979 7.79795C19.1885 8.40738 18.3618 8.74976 17.4999 8.74976C16.638 8.74976 15.8114 8.40738 15.2019 7.79795C15.1489 7.74494 15.0979 7.69028 15.049 7.6341L9.57599 10.9508C9.69105 11.2881 9.74997 11.6426 9.74994 12C9.74991 12.3297 9.69979 12.6542 9.6038 12.9634L15.1583 16.2461C15.1726 16.2312 15.1871 16.2164 15.2018 16.2018C15.5036 15.8999 15.8619 15.6605 16.2562 15.4972C16.6505 15.3338 17.0732 15.2498 17.5 15.2498C17.9268 15.2498 18.3494 15.3338 18.7438 15.4972C19.1381 15.6605 19.4964 15.8999 19.7982 16.2018C20.1 16.5036 20.3393 16.8619 20.5027 17.2562C20.666 17.6506 20.75 18.0732 20.75 18.5C20.7499 19.3619 20.4075 20.1885 19.798 20.798C19.1885 21.4074 18.3619 21.7498 17.5 21.7498C16.6381 21.7498 15.8115 21.4074 15.202 20.798C14.5925 20.1885 14.25 19.3619 14.25 18.5C14.2499 18.1727 14.2994 17.8478 14.3961 17.5362L8.84058 14.2545C8.82651 14.2691 8.8123 14.2836 8.79794 14.298C8.18845 14.9074 7.36185 15.2498 6.49994 15.2498C5.63803 15.2498 4.81142 14.9074 4.20194 14.298C3.59245 13.6885 3.25001 12.8619 3.24994 12C3.2499 11.5732 3.33394 11.1506 3.49725 10.7562C3.66056 10.3619 3.89995 10.0036 4.20174 9.70176C4.50354 9.39994 4.86183 9.16052 5.25615 8.99717C5.65048 8.83383 6.07312 8.74976 6.49994 8.74976C6.92676 8.74976 7.3494 8.83383 7.74372 8.99717C8.12882 9.15669 8.47954 9.38877 8.77684 9.68066L14.3509 6.30363C14.2844 6.04319 14.25 5.77339 14.2499 5.50003ZM17.4999 3.75003C17.2701 3.75001 17.0425 3.79525 16.8302 3.88318C16.6178 3.97112 16.4249 4.10002 16.2624 4.26252C16.0998 4.42503 15.9709 4.61796 15.883 4.83029C15.795 5.04262 15.7497 5.2702 15.7497 5.50003C15.7497 5.72986 15.795 5.95744 15.883 6.16978C15.9709 6.38211 16.0998 6.57504 16.2624 6.73754C16.4249 6.90005 16.6178 7.02895 16.8302 7.11688C17.0425 7.20481 17.2701 7.25006 17.4999 7.25003C17.964 7.24998 18.4091 7.06558 18.7372 6.7374C19.0654 6.40921 19.2497 5.96413 19.2497 5.50003C19.2497 5.03594 19.0654 4.59085 18.7372 4.26267C18.4091 3.93448 17.964 3.75009 17.4999 3.75003ZM6.49994 10.25C6.27013 10.25 6.04256 10.2953 5.83024 10.3832C5.61792 10.4712 5.425 10.6001 5.2625 10.7626C5.1 10.9251 4.9711 11.118 4.88315 11.3303C4.7952 11.5427 4.74994 11.7702 4.74994 12C4.74994 12.2298 4.7952 12.4574 4.88315 12.6697C4.9711 12.882 5.1 13.075 5.2625 13.2375C5.425 13.4 5.61792 13.5289 5.83024 13.6168C6.04256 13.7048 6.27013 13.75 6.49994 13.75C6.96407 13.75 7.40919 13.5657 7.73738 13.2375C8.06557 12.9093 8.24994 12.4642 8.24994 12C8.24994 11.5359 8.06557 11.0908 7.73738 10.7626C7.40919 10.4344 6.96407 10.25 6.49994 10.25ZM16.8302 16.8832C16.6179 16.9711 16.4249 17.1 16.2624 17.2625C16.0999 17.425 15.971 17.618 15.883 17.8303C15.795 18.0426 15.7498 18.2702 15.7498 18.5C15.7498 18.7299 15.795 18.9574 15.883 19.1698C15.971 19.3821 16.0999 19.575 16.2624 19.7375C16.4249 19.9 16.6179 20.0289 16.8302 20.1169C17.0426 20.2048 17.2701 20.2501 17.5 20.25C17.9641 20.25 18.4091 20.0656 18.7373 19.7374C19.0654 19.4092 19.2498 18.9641 19.2498 18.5C19.2498 18.0359 19.0654 17.5908 18.7373 17.2627C18.4091 16.9345 17.9641 16.7501 17.5 16.75C17.2701 16.75 17.0426 16.7952 16.8302 16.8832Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </nav>
+                <div class="t-c">
+                    T&Cs
+                </div>
+            </header>
+        </div>
+        <div class="content-background">
+            <!-- <div class="content-container">
+                <span>Every player can get 1x chance double your deposit during the promo time.</span>
+                <img class="how" src="/assets/images/how-does-it-work.png" alt="">
+                <div class="steps">
+                    <div class="title-cont">
+                        <img class="logo-icon" src="/assets/images/logo-icon.png" alt="">
+                        <p class="steps-title">2 Steps to Unlock Bonus!</p>
+                    </div>
+                    <div class="steps-content">
+                        <div class="step">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <div class="icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 7.20005C7.65 4.9688 9.4875 3.15005 11.7188 3.0188C14.325 2.8688 16.5 4.9313 16.5 7.5188C16.5 9.9938 14.4937 12.0188 12 12.0188C9.4125 12.0188 7.33125 9.82505 7.5 7.20005ZM13.4813 18.0001C13.4813 16.2938 14.4375 14.7938 15.8438 14.0438C14.4375 13.6876 13.0312 13.5001 11.9813 13.5001C9 13.5001 3 15.0001 3 18.0001V20.2501C3 20.6626 3.3375 21.0001 3.75 21.0001H14.625C13.9125 20.2126 13.4813 19.1626 13.4813 18.0001ZM21 17.2501H18.75V15.0001H17.25V17.2501H15V18.7501H17.25V21.0001H18.75V18.7501H21V17.2501Z"
+                                            fill="#00693A" />
+                                    </svg>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 2px;">
+                                    <p class="step-count">Step 1</p>
+                                    <p class="step-desc">Register with Easywin</p>
+                                </div>
+                            </div>
+                            <button>Register</button>
+                        </div>
+                        <div class="step">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <div class="icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4 0C1.79086 0 0 1.79086 0 4V16C0 18.2091 1.79086 20 4 20H18C20.2091 20 22 18.2091 22 16V13.5H19C17.067 13.5 15.5 11.933 15.5 10C15.5 8.067 17.067 6.5 19 6.5H22V4C22 1.79086 20.2091 0 18 0H4ZM3 15C3 14.4477 3.44772 14 4 14H8C8.55228 14 9 14.4477 9 15C9 15.5523 8.55228 16 8 16H4C3.44772 16 3 15.5523 3 15ZM19 8C17.8954 8 17 8.89543 17 10C17 11.1046 17.8954 12 19 12H22V8H19Z"
+                                            fill="#00693A" />
+                                    </svg>
+
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 2px;">
+                                    <p class="step-count">Step 2</p>
+                                    <p class="step-desc">Deposit any amount(₦1,000 min) Bonus credited instantly</p>
+                                </div>
+                            </div>
+                            <button>Deposit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+
+                </div>
+            </div> -->
+
+            <div class="content-container">
+                <span class="desc">Every player can get 1x chance double your deposit during the promo time.</span>
+                <img class="how" src="/assets/images/how-does-it-work.png" alt="">
+                <div class="steps">
+                    <div class="title-cont">
+                        <img class="logo-icon" src="/assets/images/logo-icon.png" alt="">
+                        <p class="steps-title">2 Steps to Unlock Bonus!</p>
+                    </div>
+                    <div class="steps-content">
+                        <div class="step">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <div class="icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 7.20005C7.65 4.9688 9.4875 3.15005 11.7188 3.0188C14.325 2.8688 16.5 4.9313 16.5 7.5188C16.5 9.9938 14.4937 12.0188 12 12.0188C9.4125 12.0188 7.33125 9.82505 7.5 7.20005ZM13.4813 18.0001C13.4813 16.2938 14.4375 14.7938 15.8438 14.0438C14.4375 13.6876 13.0312 13.5001 11.9813 13.5001C9 13.5001 3 15.0001 3 18.0001V20.2501C3 20.6626 3.3375 21.0001 3.75 21.0001H14.625C13.9125 20.2126 13.4813 19.1626 13.4813 18.0001ZM21 17.2501H18.75V15.0001H17.25V17.2501H15V18.7501H17.25V21.0001H18.75V18.7501H21V17.2501Z"
+                                            fill="#00693A" />
+                                    </svg>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 2px;">
+                                    <p class="step-count">Step 1</p>
+                                    <p class="step-desc">Register with Easywin</p>
+                                </div>
+                            </div>
+                            <button>Register</button>
+                        </div>
+                        <div class="step">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <div class="icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M4 0C1.79086 0 0 1.79086 0 4V16C0 18.2091 1.79086 20 4 20H18C20.2091 20 22 18.2091 22 16V13.5H19C17.067 13.5 15.5 11.933 15.5 10C15.5 8.067 17.067 6.5 19 6.5H22V4C22 1.79086 20.2091 0 18 0H4ZM3 15C3 14.4477 3.44772 14 4 14H8C8.55228 14 9 14.4477 9 15C9 15.5523 8.55228 16 8 16H4C3.44772 16 3 15.5523 3 15ZM19 8C17.8954 8 17 8.89543 17 10C17 11.1046 17.8954 12 19 12H22V8H19Z"
+                                            fill="#00693A" />
+                                    </svg>
+
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 2px;">
+                                    <p class="step-count">Step 2</p>
+                                    <p class="step-desc">Deposit any amount(₦1,000 min) Bonus credited instantly</p>
+                                </div>
+                            </div>
+                            <button>Deposit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="slider">
+                    <div class="title-cont">
+                        <img class="logo-icon" src="/assets/images/logo-icon.png" alt="">
+                        <p class="steps-title">Double Your Wins now!</p>
+                    </div>
+                    <span>Join them now using your x2 advantage</span>
+
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="swiper-content">
+                                            <img src="/assets/images/aviator.png" alt="" />
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="swipercontent">
+                                            <img src="/assets/images/casino-game2.png" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/casino-game3.png" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/casino-game4.jpeg" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <div class="slider">
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <!-- <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/aviator.png" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li> -->
+                                <!-- <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/casino-game2.png" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/casino-game3.png" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="slide">
+                                        <div class="content">
+                                            <img src="/assets/images/casino-game4.jpeg" alt="" />
+                                            <a href="">Click to play</a>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <header class="hero header">
+        <div class="hero-content">
+            <nav>
+                <div class="back">
+                    <span class="material-symbols-outlined">
+                        arrow_left_alt
+                    </span>
+                    <a class="logo" href="https://easywin.ng/">
+                        <img src="/assets/images/Logo.png" alt="easy win logo">
+                    </a>
+                </div>
+                <div class="share-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.2499 5.50003C14.2499 5.07321 14.3339 4.65057 14.4973 4.25623C14.6606 3.86189 14.9 3.50358 15.2017 3.20176C15.5035 2.89994 15.8618 2.66052 16.2562 2.49717C16.6505 2.33383 17.0731 2.24976 17.4999 2.24976C17.9268 2.24976 18.3494 2.33383 18.7437 2.49717C19.1381 2.66052 19.4963 2.89994 19.7981 3.20176C20.0999 3.50358 20.3393 3.86189 20.5026 4.25623C20.6659 4.65057 20.75 5.07321 20.7499 5.50003C20.7499 6.36194 20.4074 7.18852 19.7979 7.79795C19.1885 8.40738 18.3618 8.74976 17.4999 8.74976C16.638 8.74976 15.8114 8.40738 15.2019 7.79795C15.1489 7.74494 15.0979 7.69028 15.049 7.6341L9.57599 10.9508C9.69105 11.2881 9.74997 11.6426 9.74994 12C9.74991 12.3297 9.69979 12.6542 9.6038 12.9634L15.1583 16.2461C15.1726 16.2312 15.1871 16.2164 15.2018 16.2018C15.5036 15.8999 15.8619 15.6605 16.2562 15.4972C16.6505 15.3338 17.0732 15.2498 17.5 15.2498C17.9268 15.2498 18.3494 15.3338 18.7438 15.4972C19.1381 15.6605 19.4964 15.8999 19.7982 16.2018C20.1 16.5036 20.3393 16.8619 20.5027 17.2562C20.666 17.6506 20.75 18.0732 20.75 18.5C20.7499 19.3619 20.4075 20.1885 19.798 20.798C19.1885 21.4074 18.3619 21.7498 17.5 21.7498C16.6381 21.7498 15.8115 21.4074 15.202 20.798C14.5925 20.1885 14.25 19.3619 14.25 18.5C14.2499 18.1727 14.2994 17.8478 14.3961 17.5362L8.84058 14.2545C8.82651 14.2691 8.8123 14.2836 8.79794 14.298C8.18845 14.9074 7.36185 15.2498 6.49994 15.2498C5.63803 15.2498 4.81142 14.9074 4.20194 14.298C3.59245 13.6885 3.25001 12.8619 3.24994 12C3.2499 11.5732 3.33394 11.1506 3.49725 10.7562C3.66056 10.3619 3.89995 10.0036 4.20174 9.70176C4.50354 9.39994 4.86183 9.16052 5.25615 8.99717C5.65048 8.83383 6.07312 8.74976 6.49994 8.74976C6.92676 8.74976 7.3494 8.83383 7.74372 8.99717C8.12882 9.15669 8.47954 9.38877 8.77684 9.68066L14.3509 6.30363C14.2844 6.04319 14.25 5.77339 14.2499 5.50003ZM17.4999 3.75003C17.2701 3.75001 17.0425 3.79525 16.8302 3.88318C16.6178 3.97112 16.4249 4.10002 16.2624 4.26252C16.0998 4.42503 15.9709 4.61796 15.883 4.83029C15.795 5.04262 15.7497 5.2702 15.7497 5.50003C15.7497 5.72986 15.795 5.95744 15.883 6.16978C15.9709 6.38211 16.0998 6.57504 16.2624 6.73754C16.4249 6.90005 16.6178 7.02895 16.8302 7.11688C17.0425 7.20481 17.2701 7.25006 17.4999 7.25003C17.964 7.24998 18.4091 7.06558 18.7372 6.7374C19.0654 6.40921 19.2497 5.96413 19.2497 5.50003C19.2497 5.03594 19.0654 4.59085 18.7372 4.26267C18.4091 3.93448 17.964 3.75009 17.4999 3.75003ZM6.49994 10.25C6.27013 10.25 6.04256 10.2953 5.83024 10.3832C5.61792 10.4712 5.425 10.6001 5.2625 10.7626C5.1 10.9251 4.9711 11.118 4.88315 11.3303C4.7952 11.5427 4.74994 11.7702 4.74994 12C4.74994 12.2298 4.7952 12.4574 4.88315 12.6697C4.9711 12.882 5.1 13.075 5.2625 13.2375C5.425 13.4 5.61792 13.5289 5.83024 13.6168C6.04256 13.7048 6.27013 13.75 6.49994 13.75C6.96407 13.75 7.40919 13.5657 7.73738 13.2375C8.06557 12.9093 8.24994 12.4642 8.24994 12C8.24994 11.5359 8.06557 11.0908 7.73738 10.7626C7.40919 10.4344 6.96407 10.25 6.49994 10.25ZM16.8302 16.8832C16.6179 16.9711 16.4249 17.1 16.2624 17.2625C16.0999 17.425 15.971 17.618 15.883 17.8303C15.795 18.0426 15.7498 18.2702 15.7498 18.5C15.7498 18.7299 15.795 18.9574 15.883 19.1698C15.971 19.3821 16.0999 19.575 16.2624 19.7375C16.4249 19.9 16.6179 20.0289 16.8302 20.1169C17.0426 20.2048 17.2701 20.2501 17.5 20.25C17.9641 20.25 18.4091 20.0656 18.7373 19.7374C19.0654 19.4092 19.2498 18.9641 19.2498 18.5C19.2498 18.0359 19.0654 17.5908 18.7373 17.2627C18.4091 16.9345 17.9641 16.7501 17.5 16.75C17.2701 16.75 17.0426 16.7952 16.8302 16.8832Z"
+                            fill="white" />
+                    </svg>
+                </div>
+            </nav>
+            <div class="t-c">
+                T&Cs
+            </div>
+        </div>
+    </header>
+
+    <div class="content-background"></div> -->
+
+    <!--glidejs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
